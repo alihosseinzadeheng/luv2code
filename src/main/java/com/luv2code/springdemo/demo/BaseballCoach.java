@@ -3,6 +3,7 @@ package com.luv2code.springdemo.demo;
 public class BaseballCoach implements Coach{
 
     private FortuneService fortuneService;
+
     public BaseballCoach(FortuneService theFortuneService){
         fortuneService=theFortuneService;
     }
